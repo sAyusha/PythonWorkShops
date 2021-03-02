@@ -6,5 +6,6 @@ class2=int(input("Enter the number of student in 2nd class:"))
 class3=int(input("Enter the number of student in 3rd class:"))
 
 total_students=(class1+class2+class3)
-desk=total_students//2
-print("The total number of desk required is:",desk)
+desk=total_students/2
+number=round(desk)
+print("The total number of desk required is:",number)
