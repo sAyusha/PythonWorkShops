@@ -18,7 +18,7 @@ jog_3=((1/7)*60)
 total_walk_time=jog_1+jog_2+jog_3
 print(f"total time taken by walk is{total_walk_time}")
 
-if (total_bus_time>total_walk_time):
+if (total_bus_time<total_walk_time):
     print("taking bus is quicker than running")
 else:
-    print("taking bus is slowe than running")
+    print("taking bus is slower than running")
